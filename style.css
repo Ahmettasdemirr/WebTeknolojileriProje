@@ -1,0 +1,43 @@
+.logo{
+    height: 50px;
+    width: 250px;
+}
+.ayrac{
+    font-size:20px;
+    margin: 0 20px ;
+}
+
+   
+
+.nav-item a{
+font-size: 20px;
+font-family: "Oswald" , sans-serif;
+font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: orange;
+
+}
+
+
+body{
+    background-image: url(Resimler/abstract-background-white-and-gray-diagonal-stripes-lines-3d-cover-of-business-presentation-banner-web-vector.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.metin{
+    background-color: aliceblue;
+}
+.content {
+    margin-top: 100px;
+  }
+  
+.hobi .card{
+    margin-right:3px;
+}
