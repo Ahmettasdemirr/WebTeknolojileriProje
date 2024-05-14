@@ -41,3 +41,11 @@ body{
 .hobi .card{
     margin-right:3px;
 }
+.linkler a{
+    color: black;
+    text-decoration: none;  
+}
+.linkler a:hover{
+    color:orange;
+
+}
