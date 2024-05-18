@@ -89,3 +89,16 @@ height: 700px;
     height:450px;
     
 }
+.kulüplogo img{
+    width: 150px;
+    height: 150px;
+}
+
+.match {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+.team {
+    font-weight: bold;
+}

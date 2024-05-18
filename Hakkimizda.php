@@ -1,3 +1,27 @@
+<?php
+session_start();
+// Oturum kontrolü yap
+if (!isset($_SESSION['loggedin'])) {
+    // Kullanıcı girişi yapılmamışsa, giriş sayfasına yönlendir
+    header('Location: index.php');
+    exit();
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>  
@@ -24,7 +48,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item d-flex align-items-center">
-            <a class="nav-link active "  aria-current="page" href="Hakkimizda.html">Hakkımızda</a>
+            <a class="nav-link active "  aria-current="page" href="Hakkimizda.php">Hakkımızda</a>
             <span class="ayrac">|</span>
           </li>
           <li class="nav-item d-flex align-items-center">
@@ -36,7 +60,7 @@
             <span class="ayrac">|</span>
           </li>
           <li class="nav-item d-flex align-items-center">
-            <a class="nav-link" href="Mirasimiz.html">Mirasımız</a>
+            <a class="nav-link" href="Takımımız.html">Takımımız</a>
             <span class="ayrac">|</span>
           </li>
           <li class="nav-item d-flex align-items-center">
